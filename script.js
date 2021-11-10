@@ -8,3 +8,7 @@ function increment() {
 }
 
 countEl.style.color = "red"
+
+function save() {
+    console.log(counter)
+}
