@@ -1,7 +1,10 @@
 let counter=0
+let countEl = document.getElementById("count-el")
 
 function increment() {
     counter++
     console.log("the button was clicked")
-    document.getElementById("count-el").innerText = counter
+    countEl.innerText = counter
 }
+
+countEl.style.color = "red"
